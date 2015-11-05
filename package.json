@@ -1,0 +1,23 @@
+{
+  "name": "vue-enter-key",
+  "version": "1.0.0",
+  "description": "replace \\n to enter key glyph.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yasslab/vue-enter-key"
+  },
+  "keywords": [
+    "vue",
+    "filter"
+  ],
+  "author": "YassLab",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yasslab/vue-enter-key/issues"
+  },
+  "homepage": "https://github.com/yasslab/vue-enter-key"
+}
