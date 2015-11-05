@@ -3,6 +3,6 @@
 exports.install = function (Vue, opts) {
   Vue.filter('enterKey', function (value, char) {
     char = char || '↵';
-    return value.replace(/\n/, char + '\n');
+    return value.replace(/\n/g, char + '\n');
   });
 }

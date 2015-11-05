@@ -8,15 +8,15 @@ describe('vue-enter-key', function () {
   });
 
   it('should render \n as ↵', function () {
-    var vm = new Vue({data: {text: "Hello, World!\nこんにちは、世界!"}});
-    var expected = "Hello, World!↵\nこんにちは、世界!";
+    var vm = new Vue({data: {text: "Hello, World!\nこんにちは、世界!\n你好"}});
+    var expected = "Hello, World!↵\nこんにちは、世界!↵\n你好";
     var actual = vm.$interpolate('{{text | enterKey}}');
     assert.equal(actual, expected);
   });
 
   it('should render \n as <specified char>', function () {
-    var vm = new Vue({data: {text: "Hello, World!\nこんにちは、世界!"}});
-    var expected = "Hello, World!<改行>\nこんにちは、世界!";
+    var vm = new Vue({data: {text: "Hello, World!\nこんにちは、世界!\n你好"}});
+    var expected = "Hello, World!<改行>\nこんにちは、世界!<改行>\n你好";
     var actual = vm.$interpolate('{{text | enterKey "<改行>"}}');
     assert.equal(actual, expected);
   });
