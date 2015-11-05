@@ -1,11 +1,10 @@
 vue-enter-key [![Build Status](https://travis-ci.org/yasslab/vue-enter-key.svg?branch=master)](https://travis-ci.org/yasslab/vue-enter-key)
 =============
 
-Usage:
+[![NPM](https://nodei.co/npm/vue-enter-key.png)](https://www.npmjs.com/package/vue-enter-key)
 
-```console
-$ npm install --save vue-enter-key
-```
+Usage
+-----
 
 ```vue
 <template>
