@@ -1,7 +1,7 @@
 {
   "name": "vue-enter-key",
   "version": "1.0.0",
-  "description": "replace \\n to enter key glyph.",
+  "description": "represent \\n as enter key glyph.",
   "main": "index.js",
   "scripts": {
     "test": "mocha"
