@@ -7,12 +7,23 @@ Usage:
 $ npm install --save vue-enter-key
 ```
 
-```js
+```vue
+<template>
+  <h1>↵</h1>
+  <p>{{message | enterKey }}</p>
+  <h1>♡<h1>
+  <p>{{message | enterKey "♡" }}</p>
+</template>
+<script>
 var Vue = require('vue');
 var VueEnterKey = require('vue-enter-key');
 
 Vue.use(VueEnterKey);
 
-var vm1 = new Vue({template: '{{message | enterKey}}', data: {message: "hello\nこんにちは\n你好"});
-var vm2 = new Vue({template: '{{message | enterKey "♡"}}', data: {message: "hello\nこんにちは\n你好"});
+module.exports = {
+  data: function () {
+    message: "hello\nこんにちは\n你好"
+  }
+}
+</script>
 ```
