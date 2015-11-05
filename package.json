@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/yasslab/vue-enter-key/issues"
   },
-  "homepage": "https://github.com/yasslab/vue-enter-key"
+  "homepage": "https://github.com/yasslab/vue-enter-key",
+  "devDependencies": {
+    "mocha": "^2.3.3"
+  }
 }
