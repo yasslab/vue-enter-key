@@ -3,6 +3,10 @@ vue-enter-key [![Build Status](https://travis-ci.org/yasslab/vue-enter-key.svg?b
 
 Usage:
 
+```console
+$ npm install --save vue-enter-key
+```
+
 ```js
 var Vue = require('vue');
 var VueEnterKey = require('vue-enter-key');
