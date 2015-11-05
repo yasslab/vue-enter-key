@@ -22,5 +22,8 @@
   "homepage": "https://github.com/yasslab/vue-enter-key",
   "devDependencies": {
     "mocha": "^2.3.3"
+  },
+  "dependencies": {
+    "vue": "^1.0.4"
   }
 }
