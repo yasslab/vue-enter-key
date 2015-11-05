@@ -9,6 +9,6 @@ var VueEnterKey = require('vue-enter-key');
 
 Vue.use(VueEnterKey);
 
-var vm = new Vue({template: '{{message | enterKey}}', data: {message: "hello\nこんにちは\n你好"});
-var vm = new Vue({template: '{{message | enterKey "♡"}}', data: {message: "hello\nこんにちは\n你好"});
+var vm1 = new Vue({template: '{{message | enterKey}}', data: {message: "hello\nこんにちは\n你好"});
+var vm2 = new Vue({template: '{{message | enterKey "♡"}}', data: {message: "hello\nこんにちは\n你好"});
 ```
