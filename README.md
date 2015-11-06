@@ -21,7 +21,7 @@ Vue.use(VueEnterKey);
 
 module.exports = {
   data: function () {
-    message: "hello\nこんにちは\n你好"
+    return {message: "hello\nこんにちは\n你好"}
   }
 }
 </script>
